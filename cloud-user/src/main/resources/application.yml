@@ -1,0 +1,11 @@
+oderMemberAddress: http://service-order/get/order/list
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8888/eureka/
+server:
+  port: 8764
+spring:
+  application:
+    name: service-user
